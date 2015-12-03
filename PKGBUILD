@@ -14,7 +14,7 @@ md5sums=('f86e24d8d59afa15ad656d0d55450bde')
 
 build() {
   cd ${_pkgname}-${pkgver}
-  #mkdir -p build
+  mkdir -p build
   cd build
   
   cmake .. \
